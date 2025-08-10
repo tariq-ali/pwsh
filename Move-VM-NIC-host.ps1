@@ -1,3 +1,8 @@
+#!/usr/bin/env pwsh
+# Requires VMware PowerCLI
+# Install with: Install-Module -Name VMware.PowerCLI -Scope CurrentUser
+
+
 # --- Variables ---
 $vcenterServer = "vcenter.domain.local"
 $vcenterUser   = "administrator@vsphere.local"
