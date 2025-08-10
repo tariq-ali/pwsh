@@ -7,7 +7,7 @@ $vcenterPass   = "YourPassword"   # Or use Read-Host for secure entry
 $targetHost    = Read-Host "Enter ESXi host name or IP"
 
 # Path to your CSV file
-$vmListCsv = "$HOME/Code/powershell/vm.csv"
+$vmListCsv = "$HOME/Code/pwsh/vm.csv"
 
 # --- Connect to vCenter ---
 Write-Host "Connecting to vCenter server '$vcenterServer'..." -ForegroundColor Cyan
