@@ -1,1 +1,2 @@
 Get-VMs-From-Host.ps1
+Move-VM-NIC.ps1
