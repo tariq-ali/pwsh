@@ -7,7 +7,7 @@ $vcenterServer = "vcenter.domain.local"
 $vcenterUser   = "administrator@vsphere.local"
 $vcenterPass   = "YourPassword"   # Or use Read-Host for secure entry
 
-# ESXi host to target
+# Prompt for ESXi host (can also hardcode here if preferred)
 $targetHost    = Read-Host "Enter ESXi host name or IP"
 
 # Output CSV file path
