@@ -1,7 +1,7 @@
 # --- Variables ---
-$vcenterServer = "dc1-vcenter.fedcivlab.ciscolabs.com"
-$vcenterUser   = "taali@fedcivlab.ciscolabs.com"
-$vcenterPass   = "FEDciv123!"   # Or use Read-Host for secure entry
+$vcenterServer = "vcenter.domain.local"
+$vcenterUser   = "administrator@vsphere.local"
+$vcenterPass   = "YourPassword"   # Or use Read-Host for secure entry
 
 # Prompt for ESXi host (can also hardcode here if preferred)
 $targetHost    = Read-Host "Enter ESXi host name or IP"
