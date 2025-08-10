@@ -25,7 +25,7 @@ $vmData = Get-VMHost -Name $targetHost |
                   @{Name='NetworkName';Expression={$_.NetworkName}}
 
 # --- Export to CSV ---
-$vmData | Export-Csv -Path "$HOME/Code/powershell/vms_on_$($targetHost).csv" -NoTypeInformation
+$vmData | Export-Csv -Path "$HOME/Code/pwsh/vms_on_$($targetHost).csv" -NoTypeInformation
 
 Write-Host "Export complete. CSV saved to $outputCsv" -ForegroundColor Green
 
